@@ -6,7 +6,7 @@ Unfortunately, I did not realize that for Kotlin to be compiled into a Jar file,
 This is a simple game of poker. Five cards are dealt to each player and the player with the best hand wins (see hand combos here https://www.cardplayer.com/rules-of-poker/hand-rankings). In between deals, each player can bet or fold which means they will not take part in the round. At the end, the winning player gets the sum of all the bets from that round.
 ## Architecture Design
 The card game is as follows:
-![Architecture](https://drive.google.com/file/d/1fUicNqttSXz-TMJ_3BfO2QzbXmiijHyN/view?usp=sharing)
+![Architecture](https://github.com/alexander-manes/Poker-Game/blob/master/Architecture.jpg)
 As you can see, there is a heavy amount of abstraction, especially when calculating the values of a hand (the Hand Class has two separate classes to do so). I did this because there were 8 rather complicated methods to test the different types of hands and using two helper classes meant for cleaner code and made testing easier. The abstraction also followed common sense. A player has a hand and that is made up of five different cards.
 
 I chose to use Kotlin to program for this project for two major reasons. First, it is a language with which I am very comfortable. Second, its built-in null safety eliminated the chance of null-pointer errors, which is always a fear with so much abstraction.
