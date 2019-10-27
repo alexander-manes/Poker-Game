@@ -1,7 +1,7 @@
 # Poker-Game
 ## Game/Instructions
 ### How to run the game:
-Unfortunately, I did not realize that for Kotlin to be compiled into a Jar file, I needed gradle installed on my device, and do not have my own computer, I used the schools, which did not allow for me to compile it. The program still runs in an IDE such as Intellij and I hope that can work. To run it, just run it from the Game.kt file. 
+The program runs in an IDE such as Intellij. To run it, just run from the Game.kt file. 
 #### Rules:
 This is a simple game of poker. Five cards are dealt to each player and the player with the best hand wins (see hand combos here https://www.cardplayer.com/rules-of-poker/hand-rankings). In between deals, each player can bet or fold which means they will not take part in the round. At the end, the winning player gets the sum of all the bets from that round.
 ## Architecture Design
